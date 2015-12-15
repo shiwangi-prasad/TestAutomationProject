@@ -6,13 +6,13 @@
 	</target>
 
 	<target name="build" depends="nuget.restore">
-		<msbuild project=".\TestAutomationProject.sln"/>
+		<msbuild project="TestAutomationProject.sln"/>
 	</target>
 
 	<target name="test.regression">
 		<echo message="Running Nunit Tests" />
 		<nunit2>
-			<formatter type="Xml" usefile="true" extension=".xml" outputdir="./TestResults" />
+			<formatter type="Xml" usefile="true" extension=".xml" outputdir="/TestResults" />
 			<test>
 				<assemblies>
 					<include name="TestAutomationProject\bin\Debug\TestAutomationProject.dll" />
