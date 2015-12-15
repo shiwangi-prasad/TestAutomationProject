@@ -1,0 +1,23 @@
+<project name="TestAutomationProject">
+	 <loadtasks assembly=".\nant\bin\extensions\nantcontrib\bin\NAnt.Contrib.Tasks.dll" />
+	
+	<target name="nuget.restore">
+		<exec program=".nuget\NuGet.exe" commandline="restore" />
+	</target>
+
+	<target name="build" depends="nuget.restore">
+		<msbuild project=".\TestAutomationProject.sln"/>
+	</target>
+
+	<target name="test.regression">
+		<echo message="Running Nunit Tests" />
+		<nunit2>
+			<formatter type="Xml" usefile="true" extension=".xml" outputdir="./TestResults" />
+			<test>
+				<assemblies>
+					<include name="TestAutomationProject\bin\Debug\TestAutomationProject.dll" />
+				</assemblies>
+			</test>
+		</nunit2>
+	</target>
+</project>
