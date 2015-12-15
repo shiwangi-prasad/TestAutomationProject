@@ -1,0 +1,9 @@
+c:\users\shiwangip\documents\visual studio 2012\Projects\TestAutomationProject\TestAutomationProject\bin\Debug\TestAutomationProject.dll
+c:\users\shiwangip\documents\visual studio 2012\Projects\TestAutomationProject\TestAutomationProject\bin\Debug\TestAutomationProject.pdb
+c:\users\shiwangip\documents\visual studio 2012\Projects\TestAutomationProject\TestAutomationProject\obj\Debug\TestAutomationProject.dll
+c:\users\shiwangip\documents\visual studio 2012\Projects\TestAutomationProject\TestAutomationProject\obj\Debug\TestAutomationProject.pdb
+c:\users\shiwangip\documents\visual studio 2012\Projects\TestAutomationProject\TestAutomationProject\bin\Debug\nunit.framework.dll
+c:\users\shiwangip\documents\visual studio 2012\Projects\TestAutomationProject\TestAutomationProject\bin\Debug\nunit.framework.xml
+c:\users\shiwangip\documents\visual studio 2012\Projects\TestAutomationProject\TestAutomationProject\obj\Debug\TestAutomationProject.csprojResolveAssemblyReference.cache
+C:\Users\shiwangip\documents\visual studio 2012\Projects\TestAutomationProject\TestAutomationProject\bin\Debug\WebDriver.dll
+C:\Users\shiwangip\documents\visual studio 2012\Projects\TestAutomationProject\TestAutomationProject\bin\Debug\WebDriver.xml
