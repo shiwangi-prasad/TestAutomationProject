@@ -41,6 +41,15 @@ namespace TestAutomationProject
             Assert.IsTrue(business.Displayed);
         }
 
+        [Test]
+        public void GoogleSignIn()
+        {
+            IWebElement aboutLink = driver.FindElement(By.LinkText("About"));
+            IWebElement business = driver.FindElement(By.LinkText("Business"));
+            Assert.IsTrue(aboutLink.Displayed);
+            Assert.IsTrue(business.Displayed);
+        }
+
         [TearDown]
         public void TearDown()
         {
