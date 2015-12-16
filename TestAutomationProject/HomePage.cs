@@ -32,6 +32,15 @@ namespace TestAutomationProject
             Assert.IsTrue(driver.FindElement(By.PartialLinkText("Wikipedia")).Displayed);
         }
 
+        [Test]
+        public void GoogleAbout()
+        {
+            IWebElement aboutLink = driver.FindElement(By.LinkText("About"));
+            IWebElement business = driver.FindElement(By.LinkText("Business"));
+            Assert.IsTrue(aboutLink.Displayed);
+            Assert.IsTrue(business.Displayed);
+        }
+
         [TearDown]
         public void TearDown()
         {
